@@ -25,7 +25,7 @@ Before you begin, ensure you have the following installed on your computer:
 
 1. *Clone the Repository*:
     bash
-    git clone https://github.com/yourusername/jarvis.git
+    git clone https://github.com/akshu8080/jarvis.git
     cd jarvis
     
 
