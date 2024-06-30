@@ -37,6 +37,14 @@ Before you begin, ensure you have the following installed on your computer:
 3. *Set Up Email Credentials*:
     - Open the main.py file.
     - Replace the placeholders for email credentials with your own. It's recommended to use environment variables for security.
+  
+ ### Notes:
+1. *Email Credentials*: Replace placeholders with environment variables for security.
+2. *Installation Command*: Ensure requirements.txt includes all necessary packages.
+3. *Customization*: Modify the recipients and other configurations as needed.
+4. *Contribution and License*: Add details about contribution guidelines and license.
+
+This README.md provides a clear and comprehensive guide for users to set up and use your Jarvis project.
 
 ## Usage
 
@@ -45,12 +53,6 @@ To start Jarvis, run the following command:
 ```bash
 python main.py
 
-### Notes:
-1. *Email Credentials*: Replace placeholders with environment variables for security.
-2. *Installation Command*: Ensure requirements.txt includes all necessary packages.
-3. *Customization*: Modify the recipients and other configurations as needed.
-4. *Contribution and License*: Add details about contribution guidelines and license.
 
-This README.md provides a clear and comprehensive guide for users to set up and use your Jarvis project.
 
 
