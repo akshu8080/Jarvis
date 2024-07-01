@@ -34,7 +34,7 @@ def listen_for_recipient_name():#for sending email
         return None
 
 
-recipients={"om":"omgaikwad0000@gmail.com","akshay":"holeakshay580@gmail.com","kunal":"kunalpatil4944kp@gmail.com", "bhalerao":" bhaleraosahil999@gmail.com"}
+recipients={<key value pairs of email id's with associated name>}
 
 engine=pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
@@ -84,8 +84,8 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.ehlo()
     server.starttls()
-    server.login('holeakshay8080@gmail.com','ubdu ryvg irnn ukkt')
-    server.sendmail('holeakshay8080@gmail.com',to,content)
+    server.login('senderemail@gmail.com','email password(rrvv uucc oopp)')
+    server.sendmail('senderemail@gmail.com',to,content)
     server.close()
 
 
@@ -183,7 +183,7 @@ if __name__ == "__main__":
                 speak("what message you want to send")
                 content=listen_for_recipient_name() 
                 print("Prossecing....")
-              #to="holeakshay580@gmail.com"
+             
                 sendEmail(recipients[to],content)
                 speak(f"Email has been send to {to} on {recipients[to]}")
             
@@ -277,7 +277,7 @@ if __name__ == "__main__":
             speak(file.read())
       
      elif "weather" in query:
-      api_key = "eac5145ebddd1e1b681b457bdec36418"  
+      api_key = "eac5145ebddd1e1b681b457bdec35075"  
       base_url = "http://api.openweathermap.org/data/2.5/weather?"
       speak("Please provide the city name.")
       print("City name:")
